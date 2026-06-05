@@ -19,7 +19,21 @@
 
 <nav id="quizList"></nav>
 
-<main>
+<main class="layout">
+
+  <!-- 左広告 -->
+  <aside class="ad-box">
+    <p>スポンサーリンク</p>
+
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-8398161859137802"
+      data-ad-slot="5599163841"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  </aside>
+
+  <!-- クイズ本体 -->
   <section class="quiz-box">
     <div class="status">
       <span id="counter">1 / 50</span>
@@ -35,12 +49,9 @@
     <p id="result"></p>
   </section>
 
+  <!-- 右広告 -->
   <aside class="ad-box">
     <p>スポンサーリンク</p>
-
-    <script async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8398161859137802"
-      crossorigin="anonymous"></script>
 
     <ins class="adsbygoogle"
       style="display:block"
@@ -48,11 +59,8 @@
       data-ad-slot="5599163841"
       data-ad-format="auto"
       data-full-width-responsive="true"></ins>
-
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
   </aside>
+
 </main>
 
 <script src="data/technology.js"></script>
